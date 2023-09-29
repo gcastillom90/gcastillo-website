@@ -1,14 +1,14 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Reinforcement Learning-Based Cascade Motion Policy Design for Robust 3D Bipedal Locomotion
+summary: A novel model-free reinforcement learning (RL) framework to design cascade feedback control policies for 3D bipedal locomotion.
 tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+  - Project RL Cascade Policy
+date: "2022-02-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: https://sites.google.com/view/rl-cmpd/home
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: 
   focal_point: Smart
 ---

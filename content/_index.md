@@ -231,6 +231,7 @@ sections:
   #     columns: '2'
   #     view: card
   - block: collection
+    id: publications
     content:
       title: Recent Publications
       text: |-
@@ -288,8 +289,8 @@ sections:
           link: 'https://twitter.com/castillom90'
         - icon: linkedin
           icon_pack: fab
-          name: Let's connect
-          link: 'https://twitter.com/castillom90'          
+          name: Connect
+          link: 'https://www.linkedin.com/in/guillermo-castillo-m/'          
         # - icon: skype
         #   icon_pack: fab
         #   name: Skype Me
