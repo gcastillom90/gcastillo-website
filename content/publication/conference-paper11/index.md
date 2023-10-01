@@ -1,14 +1,15 @@
 ---
-title: 'Data-Driven Latent Space Representation for Robust Bipedal Locomotion Learning'
+title: 'MELP: Model Embedded Linear Policies for Robust Bipedal Hopping'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Raghav Soni  
   - Guillermo A. Castillo
-  - Bowen Weng  
-  - Wei Zhang
+  - Lokesh Krishna
   - Ayonga Hereid
+  - Shishir Kolathaya
 # # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
@@ -18,7 +19,7 @@ authors:
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-09-27T00:00:00Z'
+publishDate: '2023-09-20T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -27,10 +28,10 @@ publishDate: '2023-09-27T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: Preprint
+publication: In *2023 International Conference on Intelligent Robots and Systems (IROS)*
 # publication_short: In *ICRA*
 
-abstract: This paper presents a novel framework for learning robust bipedal walking by combining a data-driven state representation with a Reinforcement Learning (RL) based locomotion policy. The framework utilizes an autoencoder to learn a low-dimensional latent space that captures the complex dynamics of bipedal locomotion from existing locomotion data. This reduced dimensional state representation is then used as states for training a robust RL-based gait policy, eliminating the need for heuristic state selections or the use of template models for gait planning. The results demonstrate that the learned latent variables are disentangled and directly correspond to different gaits or speeds, such as moving forward, backward, or walking in place. Compared to traditional template model-based approaches, our framework exhibits superior performance and robustness in simulation. The trained policy effectively tracks a wide range of walking speeds and demonstrates good generalization capabilities to unseen scenarios.
+abstract: Linear policies are the simplest class of policies that can achieve stable bipedal walking behaviors in both simulation and hardware. However, a significant challenge in deploying them widely is the difficulty in extending them to more dynamic behaviors like hopping and running. Therefore, in this work, we propose a new class of linear policies in which template models can be embedded. In particular, we show how to embed Spring Loaded Inverted Pendulum (SLIP) model in the policy class and realize perpetual hopping in arbitrary directions. The spring constant of the template model is learned in addition to the remaining parameters of the policy. Given this spring constant, the goal is to realize hopping trajectories using the SLIP model, which are then tracked by the bipedal robot using the linear policy. Continuous hopping with adjustable heading direction was achieved across different terrains in simulation with heading and lateral velocities of up to 0.5m/sec and 0.05m/sec, respectively. The policy was then transferred to the hardware, and preliminary results (> 10 steps) of hopping were achieved.
 
 # # Summary. An optional shortened abstract.
 # summary: 
@@ -42,8 +43,8 @@ featured: false
 
 # Custom links (uncomment lines below)
 links:
-- name: arXiv
-  url: 'https://arxiv.org/abs/2309.15740'
+# - name: arXiv
+#   url: 'https://arxiv.org/abs/2309.15740'
 
 url_pdf: ''
 url_code: ''
@@ -52,7 +53,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://youtu.be/SUIkrigsrao'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

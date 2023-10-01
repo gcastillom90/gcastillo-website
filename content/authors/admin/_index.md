@@ -29,6 +29,7 @@ interests:
   - Robotics
   - Control Systems
   - Reinforcement Learning
+  - Machine Learning
 
 # Education to show in About widget
 education:

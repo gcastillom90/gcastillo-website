@@ -73,7 +73,7 @@ sections:
           company: The Ohio State University
           company_url: 'https://cyberboticslab.github.io'
           company_logo: osu
-          location: California
+          location: Columbus
           date_start: '2017-08-01'
           date_end: '2023-12-15'
           description: |2-
@@ -201,10 +201,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: Reinforcement Learning
+          tag: Reinforcement Learning
+        - name: Robotics
+          tag: Robotics
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'

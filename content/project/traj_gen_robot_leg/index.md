@@ -1,14 +1,14 @@
 ---
-title: Simulation of 2R planar robot using Gazebo and ROS
-summary: A 2R planar robot is simulated using Gazebo and ROS considering different values of height and mass for each robot's link and different initial position of the joints. The dynamic behavior of the robot and its response to gravity is analyzed for each different setup of kinematic and dynamic conditions.
+title: Trajectory generation for quadruped robot leg
+summary: Implementation of trajectory generation for a prototype leg using inverse kinematics, cubic splines and Arduino.
 tags:
   # - Control Systems
   # - Simulation
   - Robotics
-date: '2019-03-22T00:00:00Z'
+date: "2018-03-15T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: 'https://github.com/gcastillom90/Simulation-of-2R-planar-robot-using-Gazebo-and-ROS'
+external_link: 'https://github.com/gcastillom90/Trajectory-generation-for-quadruped-robot-leg'
 
 image:
   caption:
@@ -22,7 +22,7 @@ links:
 #     icon_pack: fab
 #     name: Follow
 #     url: 
-url_code: 'https://github.com/gcastillom90/Simulation-of-2R-planar-robot-using-Gazebo-and-ROS'
+url_code: 'https://github.com/gcastillom90/Trajectory-generation-for-quadruped-robot-leg'
 url_pdf: ''
 url_slides: ''
 url_video: ''
