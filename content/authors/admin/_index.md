@@ -22,7 +22,7 @@ organizations:
     url: https://cyberboticslab.github.io
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, Control Systems and Reinforcement Learning.
+bio: If you are interested in the work I do, you can contact me at castillomartinez.2@osu.edu
 
 # Interests to show in About widget
 interests:

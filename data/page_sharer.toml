@@ -80,3 +80,11 @@
   icon_pack = "fab"
   icon = "tumblr"
   enable = false
+
+# [[buttons]]
+#   id = "scholar"
+#   url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
+#   title = "Tumblr"
+#   icon_pack = "fab"
+#   icon = "graduation-cap"
+#   enable = true

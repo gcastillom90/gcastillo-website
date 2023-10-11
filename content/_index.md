@@ -35,12 +35,14 @@ sections:
   #       gradient_end: '#1976d2'
   #       gradient_start: '#004ba0'
   #       text_color_light: true
+
   - block: about.biography
     id: about
     content:
       title: #Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
   # - block: features
   #   content:
   #     title: Skills
@@ -57,6 +59,7 @@ sections:
   #         description: 10%
   #         icon: camera-retro
   #         icon_pack: fas
+
   - block: experience
     content:
       title: Experience
@@ -75,7 +78,7 @@ sections:
           company_logo: osu
           location: Columbus
           date_start: '2017-08-01'
-          date_end: '2023-12-15'
+          date_end: '2023-12-31'
           description: |2-
               * Worked in system identification, model-based controller design, reinforcement learning, data-driven control, and hardware implementation of controllers for bipedal locomotion (sim-to-real transfer).
               * Assisted in tasks for lab management, successfully procuring new resources, creating and maintaining code repositories, designing hardware experiments, and coordinating team meetings and demos for lab visitors.
@@ -99,8 +102,8 @@ sections:
           company_url: 'https://www.epn.edu.ec/'
           company_logo: epn
           location: Quito-Ecuador
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
+          date_start: '2014-09-01'
+          date_end: '2015-08-31'
           description: |2-
             Instructed undergraduate courses to groups of up to 50 students. Courses taught:
               * Geometry Fundamentals
@@ -110,6 +113,7 @@ sections:
               * Electrical Circuits Lab              
     design:
       columns: '2'
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -157,6 +161,7 @@ sections:
           url:       
     design:
       columns: '2'
+
   # - block: collection
   #   id: posts
   #   content:
@@ -184,6 +189,7 @@ sections:
   #     # Choose a layout view
   #     view: compact
   #     columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -211,6 +217,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
   # - block: markdown
   #   content:
   #     title: Gallery
@@ -230,6 +237,7 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
+
   - block: collection
     id: publications
     content:
@@ -245,6 +253,7 @@ sections:
     design:
       columns: '2'
       view: citation
+
   - block: collection
     id: talks
     content:
@@ -255,11 +264,13 @@ sections:
     design:
       columns: '2'
       view: compact
+
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+
   - block: contact
     id: contact
     content:
