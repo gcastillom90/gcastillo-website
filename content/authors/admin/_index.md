@@ -72,7 +72,8 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/Resume_Guillermo_Castillo.pdf
+    link: uploads/CV_Guillermo_Castillo.pdf
+    # link: uploads/Resume_Guillermo_Castillo.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
