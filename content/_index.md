@@ -78,7 +78,7 @@ sections:
           company_logo: osu
           location: Columbus
           date_start: '2017-08-01'
-          date_end: '2023-12-31'
+          date_end: '2024-02-29'
           description: |2-
               * Worked in system identification, model-based controller design, reinforcement learning, data-driven control, and hardware implementation of controllers for bipedal locomotion (sim-to-real transfer).
               * Assisted in tasks for lab management, successfully procuring new resources, creating and maintaining code repositories, designing hardware experiments, and coordinating team meetings and demos for lab visitors.
